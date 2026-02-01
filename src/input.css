@@ -1,21 +1,39 @@
 @import "tailwindcss";
 
+/* Font-Family Start  */
 @theme {
    --font-poppind: "Poppins", sans-serif;
 }
 
+/* Font-Family End  */
+
+/* Common satrt  */
 .container {
    @apply max-w-[1165px] mx-auto
 }
 
-.menu-ul {
+.flexProperty {
+   @apply flex items-center
+}
+
+.comonTg {
+   @apply text-[#203239] text-[36px] font-semibold font-poppind
+}
+
+/* Common end  */
+
+/* Headerpart Start  */
+.menuUl {
    @apply flex gap-x-25 text-[#203239] text-base font-poppind
 }
 
-.menu-li {
+.menuLi {
    @apply hover:font-semibold hover:text-[#203239] hover:font-poppind duration-200 cursor-pointer hover:border-[#F6762E] hover:border-b
 }
 
+/* Headerpart End  */
+
+/* Bannerpart Start  */
 .banner h1 {
    @apply text-[#203239] text-[56px] font-semibold font-poppind w-194 leading-[150%]
 }
@@ -23,3 +41,35 @@
 .banner p {
    @apply text-[#203239]/55 text-base font-poppind w-136 leading-9 py-10
 }
+
+.bannerInput {
+   @apply w-127 py-5 px-10 bg-white flex gap-x-2 text-[#203239]/55 text-base font-poppind rounded-[15px]
+}
+
+.bannerBtn {
+   @apply py-5 px-10 text-[#203239] text-base font-poppind bg-white rounded-[15px] cursor-pointer
+}
+
+/* Bannerpart End  */
+
+/* Servicepart Start  */
+.serviceAfter {
+   @apply relative after:absolute after:left-0 after:top-4 after:h-7.5 after:w-2 after:bg-[#FF7527] after:rounded-sm
+}
+.serviceH4Tg {
+   @apply text-[#203239] text-base font-medium font-poppind
+}
+
+.serviceH5Tg {
+   @apply text-[#FF7527] text-base font-medium font-poppind
+}
+
+.servicePTg {
+   @apply text-[#203239]/55 text-base font-poppind w-59 mt-5 leading-7
+}
+
+.serviceBtn {
+   @apply text-[#203239] text-base font-medium font-poppind mt-16
+}
+
+/* Servicepart End  */
