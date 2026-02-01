@@ -53,9 +53,10 @@
 /* Bannerpart End  */
 
 /* Servicepart Start  */
-.serviceAfter {
-   @apply relative after:absolute after:left-0 after:top-4 after:h-7.5 after:w-2 after:bg-[#FF7527] after:rounded-sm
+.serviceShproperty {
+   @apply py-5 px-9 border border-white hover:border-[#EEEDDE] relative after:absolute after:left-0 after:top-4 after:h-7.5 after:w-2 after:bg-[#FF7527] after:rounded-sm
 }
+
 
 .serviceH4Tg {
    @apply text-[#203239] text-base font-medium font-poppind

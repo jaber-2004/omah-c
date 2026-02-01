@@ -303,9 +303,6 @@
   .px-3\.75 {
     padding-inline: calc(var(--spacing) * 3.75);
   }
-  .px-9 {
-    padding-inline: calc(var(--spacing) * 9);
-  }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
   }
@@ -314,9 +311,6 @@
   }
   .py-3\.25 {
     padding-block: calc(var(--spacing) * 3.25);
-  }
-  .py-5 {
-    padding-block: calc(var(--spacing) * 5);
   }
   .py-7\.75 {
     padding-block: calc(var(--spacing) * 7.75);
@@ -541,8 +535,13 @@
   font-weight: var(--font-weight-light);
   color: color-mix(in oklab, #203239 55%, transparent);
 }
-.serviceAfter {
+.serviceShproperty {
   position: relative;
+  border-style: var(--tw-border-style);
+  border-width: 1px;
+  border-color: var(--color-white);
+  padding-inline: calc(var(--spacing) * 9);
+  padding-block: calc(var(--spacing) * 5);
   &::after {
     content: var(--tw-content);
     position: absolute;
@@ -570,6 +569,11 @@
   &::after {
     content: var(--tw-content);
     background-color: #FF7527;
+  }
+  &:hover {
+    @media (hover: hover) {
+      border-color: #EEEDDE;
+    }
   }
 }
 .serviceH4Tg {
