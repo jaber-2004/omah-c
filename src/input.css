@@ -24,11 +24,11 @@
 
 /* Headerpart Start  */
 .menuUl {
-   @apply flex gap-x-25 text-[#203239] text-base font-poppind
+   @apply flex gap-x-25 text-[#203239] font-light text-base font-poppind
 }
 
 .menuLi {
-   @apply hover:font-semibold hover:text-[#203239] hover:font-poppind duration-200 cursor-pointer
+   @apply hover:font-semibold hover:text-[#203239] duration-200 cursor-pointer relative after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:h-1 after:w-5 hover:after:bg-[#FF7527] after:rounded
 }
 
 /* Headerpart End  */
@@ -39,15 +39,15 @@
 }
 
 .banner p {
-   @apply text-[#203239]/55 text-base font-poppind w-136 leading-9 py-10
+   @apply text-[#203239]/55 text-base font-light font-poppind w-136 leading-9 py-10
 }
 
 .bannerInput {
-   @apply w-127 py-5 px-10 bg-white flex gap-x-2 text-[#203239]/55 text-base font-poppind rounded-[15px]
+   @apply w-127 py-5 px-10 bg-white flex gap-x-2 font-light text-[#203239]/55 text-base font-poppind rounded-[15px]
 }
 
 .bannerBtn {
-   @apply py-5 px-10 text-[#203239] text-base font-poppind bg-white rounded-[15px] cursor-pointer
+   @apply py-5 px-10 text-[#203239]/55 text-base font-poppind bg-white rounded-[15px] cursor-pointer font-light
 }
 
 /* Bannerpart End  */
@@ -56,6 +56,7 @@
 .serviceAfter {
    @apply relative after:absolute after:left-0 after:top-4 after:h-7.5 after:w-2 after:bg-[#FF7527] after:rounded-sm
 }
+
 .serviceH4Tg {
    @apply text-[#203239] text-base font-medium font-poppind
 }
@@ -65,7 +66,7 @@
 }
 
 .servicePTg {
-   @apply text-[#203239]/55 text-base font-poppind w-59 mt-5 leading-7
+   @apply text-[#203239]/55 text-base font-light font-poppind w-59 mt-5 leading-7
 }
 
 .serviceBtn {
