@@ -28,7 +28,7 @@
 }
 
 .menuLi {
-   @apply hover:font-semibold hover:text-[#203239] hover:font-poppind duration-200 cursor-pointer hover:border-[#F6762E] hover:border-b
+   @apply hover:font-semibold hover:text-[#203239] hover:font-poppind duration-200 cursor-pointer
 }
 
 /* Headerpart End  */
