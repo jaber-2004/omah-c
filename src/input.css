@@ -1,21 +1,25 @@
 @import "tailwindcss";
 
 @theme {
-  --font-poppind: "Poppins", sans-serif;
+   --font-poppind: "Poppins", sans-serif;
 }
 
 .container {
- @apply max-w-[1165px] mx-auto
- }
- .menu-ul {
-    @apply flex gap-x-25 text-[#203239] text-base font-poppind
- }
- .menu-li {
-    @apply hover:font-semibold duration-200 cursor-pointer hover:border-[#F6762E] hover:border-b
- }
- .banner h1 {
-    @apply text-[#203239] text-[56px] font-semibold font-poppind w-194 leading-[150%]
- }
- .banner p {
-    @apply text-[#203239] text-base font-poppind w-136 leading-9 py-10
- }
+   @apply max-w-[1165px] mx-auto
+}
+
+.menu-ul {
+   @apply flex gap-x-25 text-[#203239] text-base font-poppind
+}
+
+.menu-li {
+   @apply hover:font-semibold hover:text-[#203239] hover:font-poppind duration-200 cursor-pointer hover:border-[#F6762E] hover:border-b
+}
+
+.banner h1 {
+   @apply text-[#203239] text-[56px] font-semibold font-poppind w-194 leading-[150%]
+}
+
+.banner p {
+   @apply text-[#203239]/55 text-base font-poppind w-136 leading-9 py-10
+}
