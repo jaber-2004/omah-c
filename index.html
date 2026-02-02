@@ -19,19 +19,20 @@
     <!-- Headerpart start  -->
     <header>
       <div class="bg-[#EEEDDE]">
-        <div class="container">
-          <div class="pt-15 flexProperty justify-between">
+        <div class="container relative">
+          <div class="pt-5 md:pt-15 flexProperty justify-between">
             <div class="">
               <img src="src/assets/logo.png" alt="logo.png" />
             </div>
-            <div class="">
+            <i class="fa-solid fa-bars absolute top-1/2 -translate-y-1/2 right-1 md:!hidden"></i>
+            <nav class="">
               <ul class="menuUl">
                 <li class="menuLi">Home</li>
                 <li class="menuLi">About</li>
                 <li class="menuLi">Properties</li>
                 <li class="menuLi">Contact</li>
               </ul>
-            </div>
+            </nav>
           </div>
         </div>
       </div>
@@ -41,26 +42,26 @@
     <!-- Bannerpart start  -->
     <section class="bg-[#EEEDDE]">
       <div class="container">
-        <div class="flexProperty justify-between py-47">
+        <div class="flexProperty md:justify-between py-5 md:py-47">
           <div class="banner">
             <h1>Temukan Hunian Keluarga Sesuai Keinginanmu</h1>
             <p>
               Menyediakan hunian bagi keluarga anda dengan varian pilihan dan
               lokasi yang strategis di kota anda dengan cara yang lebih mudah.
             </p>
-            <div class="-pt-4 flex gap-x-3">
+            <div class="-pt-4 flex flex-col md:flex-row gap-x-3">
               <div class="bannerInput">
-                <i class="fa-solid fa-location-dot text-[#203239]"></i>
+                <i class="fa-solid fa-location-dot text-[#203239] hidden md:block"></i>
                 <input
                   type="text"
                   placeholder="Search location, properties, residental group"
-                  class="w-127 outline-0"
+                  class="md:w-127 outline-0"
                 />
               </div>
               <button class="bannerBtn">Search</button>
             </div>
           </div>
-          <div class="">
+          <div class="mt-10 md:mt-0">
             <img src="src/assets/bannerImg.png" alt="bannerImg.png" />
           </div>
         </div>
@@ -70,12 +71,12 @@
 
     <!-- Servicepart start  -->
     <section>
-      <div class="my-25">
+      <div class="my-10 md:my-25">
         <div class="container">
-          <h3 class="comonTg w-133">
+          <h3 class="comonTg w-70 md:w-133 leading-[150%]">
             Tahapan Pembelian Properti yang Mudah dan Cepat
           </h3>
-          <div class="flex justify-between mt-16">
+          <div class="flex flex-col md:flex-row justify-between mt-8 md:mt-16">
             <div
               class="hover:shadow-[0_4px_4px_rgba(0,0,0,0.25)] rounded-[10px] duration-300 serviceShproperty "
             >
@@ -133,13 +134,13 @@
     <!-- Servicepart end  -->
     <!-- Pilihan-konsumenPart start  -->
     <section>
-      <div class="bg-[#EEEDDE] pt-16.25 pb-17.5">
+      <div class="bg-[#EEEDDE] pt-8 md:pt-16.25 pb-10 md:pb-17.5">
         <div class="container">
           <h4 class="text-[#FF7527] text-base font-medium font-poppind">
             Pilihan konsumen
           </h4>
-          <h3 class="comonTg mt-6.25">Residen Favorit</h3>
-          <div class="mt-18.75 flexProperty justify-between">
+          <h3 class="comonTg mt-4 md:mt-6.25">Residen Favorit</h3>
+          <div class="mt-8 md:mt-18.75 flexProperty justify-between">
             <div class="">
               <img
                 src="src/assets/residenfavorite.png"
@@ -148,25 +149,25 @@
             </div>
             <div class="">
               <h3
-                class="text-[#203239] text-[36px] font-semibold font-poppind w-126 leading-[150%]"
+                class="text-[#203239] text-3xl md:text-4xl font-semibold font-poppind md:w-126 leading-[150%]"
               >
                 Bangunan yang dirancang oleh Aristektur Handal
               </h3>
               <p
-                class="text-[#203239] text-base font-light font-poppind w-142.5 leading-7.5 mt-10"
+                class="text-[#203239] text-base font-light font-poppind md:w-142.5 leading-7.5 mt-5 md:mt-10"
               >
                 Tanpa diragukan, properti yang disediakan dalam webiste kami
                 merupakan hasil kerjasama secara profesional dengan para
                 Arsitektur ternama dan Developer yang terpercaya.
               </p>
-              <div class="mt-12.5 flex gap-x-16.25">
+              <div class="mt-6 md:mt-12.5 flex flex-col md:flex-row gap-x-16.25">
                 <button
                   class="py-3.25 px-10 border rounded-[10px] text-[#203239] text-base font-semibold font-poppind cursor-pointer flexProperty gap-x-3.75"
                 >
                   <i class="fa-solid fa-phone"></i> Hubungi Kami
                 </button>
                 <button
-                  class="py-3.25 px-10 border rounded-[10px] bg-[#203239] text-white text-base font-semibold font-poppind cursor-pointer"
+                  class="py-3.25 px-10 border rounded-[10px] bg-[#203239] text-white text-base font-semibold font-poppind cursor-pointer mt-3 md:mt-0"
                 >
                   Explore lebih banyak
                 </button>
